@@ -18,6 +18,11 @@
   <title></title>
 </head>
 <body>
-  <%= yield %>
+  <div class="container">
+    <div id="notification"><% if @notification %><%= @notification %><% end %></div>
+
+      <%= yield %>
+
+  </div>
 </body>
 </html>
