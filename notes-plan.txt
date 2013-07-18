@@ -1,0 +1,14 @@
+index page
+  url shortener
+  sign-up
+  login
+
+is user signs up, their urls will have a user id
+logged in users have a profile page
+
+so, need to add a user_id to the url migration
+  could add index on it for faster lookup
+
+  user has_many urls
+  url belongs_to user
+
